@@ -20,7 +20,7 @@ def main() :
     else :
         st.text('')
 
-    st.text('컬럼을 선택하면, 중복제거한 데이터의 개수를 보여줍니다.')
+    st.info('컬럼을 선택하면, 중복제거한 데이터의 개수를 보여줍니다.')
 
     choice = st.selectbox('컬럼 선택',df.columns)
 
