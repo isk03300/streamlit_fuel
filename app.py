@@ -11,7 +11,7 @@ import seaborn as sb
 
 
 def main() :
-    st.title('자동차 데이터 분석')
+    st.title('자동차 데이터 분석~')
 
     df = pd.read_csv('./data/fuel_econ.csv')
 
